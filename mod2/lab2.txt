@@ -1,0 +1,51 @@
+1.) a. 31
+    b. -42
+    c. -2
+    d. 21.75
+
+2.) a. 3
+    b. -0.5
+    c. not possible; modulo only works with 'int' data types
+    d. 7.85714
+
+3.) a. correct
+    b. char declaration must be a single character
+    c. variable names may not start with a number or contain special characters
+    d. string variable declarations must start and end with double quotes (ie. "First C++ course")
+    e. int variable declarations may only equate to integers
+    f. correct
+
+4.) x = 6
+    y = 29
+    z = 3
+    w = -9
+
+5.) x = 28
+    y = 35
+    z = 1
+    w = 22
+    t = 6.5
+
+6.) a. cout << '\n';
+    b. cout << '\t';
+    c. cout << '\"';
+
+7.) a. studentsFirstName
+    b. itemsDiscountedPrice
+    c. totalJuiceBottles
+    d. totalMilesTraveled
+    e. highestTestScore
+
+8.) a. int num1, num2;
+    b. cout << "Please enter two numbers separated by a space";
+    c. cin >> num1 >> num2; 
+    d. cout << "num1 = " << num1 << ", num2 = " << num2 << ", 2 times num1 minus num2 = " << result << endl;
+
+9.) | a | b | c |
+    |10 | 7 | ? |
+    |10 | 8 |28 |
+    |11 |48 |29 |
+
+10.) Name: Miller
+     Id: 2417
+     Mystery number: 3469

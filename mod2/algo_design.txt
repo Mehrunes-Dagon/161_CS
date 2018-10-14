@@ -1,0 +1,33 @@
+1.) Lowest Possible Offer Algorithm:
+    -declare function "lowestAcceptableOffer"
+    -declare variables "listPrice", "dealerPrice" and "lowestOffer"
+    -print output "What is the list price of the car?"
+    -assign input to "listPrice"
+    -set "dealerPrice" to "listPrice * 0.85"
+    -set "lowestOffer" to "dealerPrice + 500"
+    -print "The dealer will accept [lowestOffer]$ for the car"
+
+2.) Student Names and Test Scores:
+    with list of students and their respective scores, create the variable "studentsWithScores", 
+    an array of 2 length arrays each containing, 0, the student's name and, 1, their test score
+      -a. declare function "averageTestScore"
+        -declare variables "totalStudents" and "combinedScores" and set them both to 0
+        -loop through "studentsWithScores"
+          -for each student, add 1 to "totalStudents" and their test score (student[i][1]) to "totalTestScores"
+        -assign "averageTestScore" to "totalTestScores" / "totalStudents"
+        -return "averageTestScore"
+      -b. declare function "belowAverageStudents" 
+        -declare variable "result" and set it to an empty array
+        -loop through "studentsWithScores"
+          -if student's test score (student[i][1]) < "averageTestScore()", print student's name (student[i][0])
+      call "belowAverageStudents"
+      -c. declare function "highestTestScore"
+        -declare variable "highestScore" and set it to 0
+          -loop through "studentsWithScores"
+            -if student's test score (student[i][1]) > "highestScore", "highestScore" = student
+        -return "highestScore"
+      -d. declare function "studentsWithHighestTestScores"
+        -loop through "studentsWithScores"
+          -if student's test score (student[i][1]) == "highestTestScore()", print student's name (student[i][0])
+    call "studentsWithHighestTestScores"
+

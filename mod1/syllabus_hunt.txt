@@ -1,0 +1,12 @@
+Jesse Black
+Via D2L Brightspace e-mail
+C++ Programming book by D. S. Malik, computer, C++ compiler, text editor, PDF reader, web browser 
+Assignments are due every Sunday and the first is due Sep 30.
+These are exercises designed to boost our critical thinking skills and understanding of relevant C++ syntax
+10%-20%
+2
+Nov 3, 1pm to 3pm and Dec 8, 1PM to 3pm at Sylvania TCB 310
+Extra participation
+Cheating and plagiarism
+Saturday Nov 17
+On Mac, is there a benefit to using Code::Blocks over the builtin compilers?

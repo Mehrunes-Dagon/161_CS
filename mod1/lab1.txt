@@ -1,0 +1,32 @@
+1. a. 117
+   b. -10
+   c. 25
+   d. -86
+
+2. a. 01010101
+   b. 10110111
+   c. 00101111
+   d. 11110110
+
+3. false1
+   true2
+   done
+
+4. a. The frame has a parameter of 10 inches
+   b. the length of the frame is 1.5 times the width
+   c. parameter = length + width + length + width
+   d. 10 = x + 1.5x + x + 1.5x
+      10 = 5x
+      x = 2
+      length = 2in
+      width = 2(1.5) = 3in
+
+5. a. assuming only wall space is being painted and how many sqft a gallon of paint can cover is known
+   b. units in gallons
+   c. vars will be: 
+        totalBrWallArea, width * height (in sqft) of each wall added together
+        entryDoorArea, width * height (in sqft)
+        closetDoorArea, width * height (in sqft)
+        windowArea, width * height (in sqft)
+        galPerSqft, how many sqft 1 gallon of paint can cover (known)
+   d. formula: totalBrWallArea - entryDoorArea - closetDoorArea - windowArea = totalPaintingArea / galPerSqft
