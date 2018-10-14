@@ -16,10 +16,10 @@ int main()
   //echo the input
   cout << "You entered:" << name << endl;
   cout << "Is this correct (y/n):";
-  cin.get(reply);
-  cin.ignore(100, '\n');
+  cin.get(reply);        // ignores new lines and spaces
+  cin.ignore(100, '\n'); //
   cout << "PLease enter your subject:";
-  getline(cin, subject);
+  getline(cin, subject); // gets whole line
   //echo the input
   cout << "You entered:" << subject << endl;
 

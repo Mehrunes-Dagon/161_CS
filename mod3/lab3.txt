@@ -1,0 +1,79 @@
+1.)   |num1|num2|symb |
+    a.| 12 | 4  | 3   |
+    b.| 2  | 34 | 1   |
+    c.| 12 | 34 |SPACE|
+    d.| 12 | 34 |SPACE|
+    e.| 2  | 34 | 1   |
+
+2.)   | x  | y  | z  |
+    a.| 6  | 0  | x  |
+      an int declareation can only be assigned an integer
+    b.| 6  | 12 |0.56|
+    c.| 12 | ?  |6.56|
+      will not complete until an input for y is entered (ie. 99, RETURN)
+
+3.)   | x  | y  |symb |
+    a.| 12 | 34 | 2   |
+    b.| 12 | 56 |SPACE|
+    c.| 56 | 24 | 1   |
+    d.| 24 | 12 | $   |
+    e. It ignores the newline character ("\n") that is in the buffer so 
+       the next assignment (ie. "cin >> y;") does not read it.
+
+4.) 46 0 *
+
+5.)   | x  | y  | z  | ch |
+    a.| 12 | 34 | 56 | .  |
+    b.| 12 | 34 |92.6| A  |
+    c.| 12 | 0  | x  | x  |
+
+6.)   |num |dis |
+    a.| 34 | #  |
+    b.| 0  | #  |
+      peek only gives a preview of the output assignment, does not execute the command
+    c.| 34 | #  |
+
+7.) getline(cin, name);
+
+8.)   |age |   name   |
+    a.| 23 |John Smith|
+    b.| 23 |    x     |
+
+9.) 
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+  int num1, num2;
+
+  // ofstream as well as ifstream vars needed to write and read to files
+  ofstream outFile;
+  ifstream inFile;
+
+  //opens and reads the file
+  inFile.open("input.dat");
+  inFile >> num1 >> num2;
+
+  //opens and writes sum to file
+  outFile.open("output.dat");
+  outFile << "Sum = " << num1 + num2 << endl;
+
+  // closes the files
+  inFile.close();
+  outFile.close();
+
+  return 0;
+}
+
+10.) 
+a. outfile.open("travel.txt");
+b. outfile << fixed << showpoint << setprecision(2);
+c. outfile << "Distance: " << distance << endl;
+   outfile << "Speed: " << speed << endl;
+e. travelTime = distance / speed;
+   outfile << "Travel time is " << travelTime << "hrs" << endl;
+f. #include <iostream>
+   #include <iomanip> 
+   #include <fstream>
