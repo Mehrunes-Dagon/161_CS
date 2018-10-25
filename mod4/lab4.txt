@@ -1,2 +1,91 @@
-1. true
-2. 
+1.  a. true
+    b. false
+    c. true
+    d. true
+    e. true
+
+2.  a. true, a is lexically less than e
+    b. true, C is lexically less than E
+    c. true, string comparisons are case sensitive
+    d. false, P is not lexically less than C
+    e. true, o is lexically more than h
+
+3.  a. %%
+    b. 10 2 * 5
+    c. a blank line, 'cout << "2 * 5";' is outside the scope of the if statement so it runs either way
+    d. a blank line, a is not lexically less than A
+    e. Sam Tom
+       Tom Sam, 'cout << "Tom Sam" << endl;' is outside the scope of the if statement so it runs either way
+    f. -6
+       **, similar to last AND math expressions are always equated 
+
+4.  The value of found is: 0
+
+5.  if (numOfItemsBought < 5)
+      shippingCharges = 5.00 * numOfItemsBought;
+    else if (numOfItemsBought < 10)
+      shippingCharges = 2.00 * numOfItemsBought;
+    else
+      shippingCharges = 0.00;
+
+6. This assumes overSpeed will not be a negative number
+if (overSpeed <= 5)
+  fine = 20;
+else if (overSpeed <= 10)
+  fine = 75;
+else if (overSpeed <= 15)
+  fine = 150;
+else
+  fine = 150 + (20 * (overSpeed - 15));
+
+7.  a. x >= y ? z = x - y : z = y - x;
+    b. hours < 40.0 ? wages = hours * rate : wages = 40 * rate+ 1.5 * rate * (hours - 40);
+    c. score >= 60 ? str = "pass" : str = "Fail";
+
+8.  a. 15
+    b. -10
+    c. 0
+    d. 17
+
+9. 
+#include <iostream>
+using namespace std;
+
+const int SECRET = 5;
+
+int main()
+{
+  int x, y, w, z;
+
+  cin >> z;
+
+  if (z > 10)
+    x = 12, y = 5, w = x + y + SECRET;
+  else
+    x = 12, y = 4, w = x + y + SECRET;
+
+  cout << "w = " << w << endl;
+  return 0;
+}
+
+10. 
+#include <iostream>
+using namespace std;
+int main()
+{
+  double firstNum, secondNum;
+  cout << "Enter two nonzero numbers: ";
+  cin >> firstNum >> secondNum;
+  cout << endl;
+
+  if (firstNum == 0 || secondNum == 0)
+    cout << "Both numbers must be nonzero!" << endl;
+  else if (firstNum > secondNum)
+    cout << firstNum / secondNum << endl;
+  else if (firstNum < secondNum)
+    cout << secondNum / firstNum << endl;
+  else
+    cout << firstNum * secondNum << endl;
+
+  return 0;
+}

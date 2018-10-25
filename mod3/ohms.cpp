@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    int current, resistance, voltage;
+    float current, resistance, voltage;
 
     // get input from user
     cout << "Please enter the current in amps." << endl;
