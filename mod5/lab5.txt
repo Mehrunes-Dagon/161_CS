@@ -1,0 +1,87 @@
+1.  This loop will print numbers 1-10 paired with their according squares.
+
+2.  for (int i = 1; i <= 10; i++) {
+      cout << i << " " << i * i << endl;
+    }
+
+3.  67
+
+4.  int count = 0;
+    int sum = 0;
+    int num;
+
+    while (count < 20)
+    {
+      cin >> num;
+      count++;
+      sum = sum + num;
+    }
+
+5.  4 3 2 1
+
+6.  int sumO3s = 0;
+    for (int i = 1; i <= 100; i++)
+    {
+      if (i % 3 == 0)
+        sumO3s += i;
+    }
+    *This also works without the curly brackets. Would that be bad pratice?
+
+7.  0 - 24
+    25 - 49
+    50 - 74
+    75 - 99
+    100 - 124
+    125 - 149
+    150 - 174
+    175 - 200
+
+8.  a. loop will run 5 times and output "55 50".
+    b. loop will run 1 time and output "7 20".
+    c. loop will run 3 times and output "35 35".
+
+9.    // as a while loop
+      int limit = 4;
+      int first = 5;
+      int j = 1;
+      while (j <= limit)
+      {
+        cout << first * j << endl;
+        first = first + (j - 1);
+        j++;
+      }
+      cout << endl;
+      // as a do loop
+      int limit = 4;
+      int first = 5;
+      int j = 1;
+      do
+      {
+        cout << first * j << endl;
+        first = first + (j - 1);
+        j++;
+      } while (j <= limit);
+      cout << endl;
+
+10. a.  1
+        1 2
+        1 2 3
+        1 2 3 4
+        1 2 3 4 5
+    b.  1  2  3  4  5  6  7  8  9 10
+        11 12 13 14 15 16 17 18 19 20
+        21 22 23 24 25 26 27 28 29 30
+        31 32 33 34 35 36 37 38 39 40
+        41 42 43 44 45 46 47 48 49 50
+    c.  i keeps track of each row and j keeps track of each column
+    d.         1
+              121
+             12321
+            1234321
+           123454321
+          12345654321
+         1234567654321
+        123456787654321
+       12345678987654321
+    e. loop B contributes the correct amount of spaces on either side of the pyrimid
+       loop D contributes the decending numbers on the right side of the pyrimid

@@ -71,7 +71,7 @@ int main()
       }
 
       // set precision and output result
-      cout << fixed << showpoint << setprecision(2);
+      cout << fixed << showpoint << setprecision(1);
       cout << "The specifications of your " << type << " are:" << endl
            << "Width: " << width << " inches" << endl
            << "Height: " << height << " inches" << endl
