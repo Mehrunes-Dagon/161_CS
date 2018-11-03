@@ -1,5 +1,5 @@
 // Programming Assignment #6
-// This program tallies...
+// This program will iterate through your specified range, adding 2 for each negative number and subtracting 1 for each positive number to a sum and then output that sum.
 // William Winberg, Nov 2, 2018
 // Sources: none
 
