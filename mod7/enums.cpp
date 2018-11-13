@@ -38,11 +38,13 @@ int main()
 
   yourColor = myColor;
   yourSize = static_cast<Size>(mySize + 1);
+  mySize = static_cast<Size>(mySize + 2);;
 
   cout << "My color is " << colorToString(myColor) << endl;
   cout << "My Size is " << sizeToString(mySize) << endl;
   cout << "Your color is " << colorToString(yourColor) << endl;
   cout << "Your Size is " << sizeToString(yourSize) << endl;
+  cout << Green;
 
   char reply;
   cout << "Enter q to quit: " << endl;

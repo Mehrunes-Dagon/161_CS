@@ -1,0 +1,39 @@
+1.  a.  enum CourseType
+        {
+          ALGEBRA,
+          BEGINNING_SPANISH,
+          ASTRONOMY,
+          GENERAL_CHEMISTRY,
+          PHYSICS,
+          LOGIC
+        };
+    b.  CourseType myClass;
+    c.  myClass = ASTRONOMY;
+    d.  myClass = static_cast<CourseType>(myClass +1);
+    e.  if (dlClass == ALGEBRA) cout << "Algebra";
+    f.  cin >> entry;
+        if (entry == "logic") fall = LOGIC;
+
+2.  CourseType getCourse()
+    {
+        string str;
+        cin >> str;
+        CourseType input = (CourseType)str;
+        return input;
+    }
+
+3.  a.  Heelo Thlre
+    b.  Giamond Dold
+    c.  Ca+ J+va
+
+4.  a.  Programming < Project
+    b.  Summer < Trip
+    c.  Winter > Cold
+
+5.  a.  28
+    b.  the time
+    c.  a party!
+
+6.  a.  str.insert(10, " best");
+    b.  str.erase(21);
+        str.append("to study for the exam!");
