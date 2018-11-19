@@ -21,7 +21,7 @@ int main()
   //assignment operator can be used with strings
   name = "John Smith";
   //must use strcpy to put a value into msg which is a cstring
-  strcpy_s(msg, "This is a test");
+  strcpy(msg, "This is a test");
 
   //msg gets overwritten from the user
   cout << "Enter a message:";
