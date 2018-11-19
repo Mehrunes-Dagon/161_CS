@@ -1,7 +1,8 @@
-//This program demos basic arrays
+//This program demos basic arrays.  It shows how to find the largest element in an array
 //Gayathri Iyer
-//05-September-2014
-//Sources:none
+//10-Septemeber-2014
+//Sources:None
+
 #include <iostream>
 
 using namespace std;
@@ -11,7 +12,7 @@ const int CAP = 10;
 
 int main()
 {
-  int list[CAP] = {0}, i = 0;
+  int list[CAP] = {0}, i = 0, max = 0;
 
   //read from user into list
   cout << "Enter 10 whole numbers:";
@@ -20,16 +21,17 @@ int main()
     cin >> list[i];
 
   //output to user forwards
-  cout << "List printed forwards:\n";
+  cout << "You entered:\n";
   for (i = 0; i < CAP; i++)
     cout << list[i] << " ";
   cout << endl;
 
-  //output to user backwards
-  cout << "List printed backwards:\n";
-  for (i = CAP - 1; i > 0; i--)
-    cout << list[i] << " ";
-  cout << endl;
+  //find the largest
+  max = list[0];
+  for (i = 1; i < CAP; i++)
+    if (list[i] > max)
+      max = list[i];
+  cout << "Largest = " << max << endl;
 
   return 0;
 }
