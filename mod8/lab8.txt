@@ -1,0 +1,60 @@
+1. a. passwords
+   b. 100
+   c. double
+   d. 0-99
+
+2. a. invalid, arrays cannot be of string type
+   b. invalid, missing closing bracket
+   c. invalid, array size must be a constant
+   d. invalid, array size must be a constant
+   e. invalid, zize of array must be greater than 0
+   f. invalid, names is not a defined type
+
+3. a. double beta[20];
+   b. beta[20] = {0};
+   c. cout << beta[4];
+   d. beta[8] = 70.50;
+   e. beta[11] = 4 * beta[7] // question did not make sense
+   f. for (int i = 0; i < 20; i++) {
+         if (i % 3 == 0) cout << int[i];
+      }
+   g.  cout beta[19];
+   h. 
+
+4. 3 4 12 48 144
+
+5. int myList[10]; 
+   for (int i = 10; i > 0; i--)
+      myList[i] = i;
+
+6. a. double heights[10] = {5.2, 6.3, 5.8, 4.9, 2.5, 2.7, 6.7, 7.1, 5.10, 6.0};
+   b. int weights[7] = {120, 125, 137,  40, 150, 180, 210};
+   c. char specialSymbols[7] = {'$', '#', '%', '@', '&', '! ', '^'};
+   d. string seasons[4] = {"fall", "winter", "spring", "summer"};
+
+7. int main()
+   {
+      int beta[7] = {0, 1};
+      for (int i = 2; i < 7; i++)
+         beta[i] = beta[i - 1] + beta[i - 2];
+      for (int i = 0; i < 7; i++)
+         cout << beta[i] << " ";
+      cout << endl;
+      return 0;
+   }
+   output: 0 1 1 2 3 5 8
+
+8. a. valid
+   b. valid
+   c. invalid, list1 and list2 are not int type vars
+   d. valid
+
+9. its reference
+
+10.   0=6
+      1=10
+      2=14
+      3=18
+      4=22
+      5=unassigned 
+      6=unassigned 

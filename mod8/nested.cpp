@@ -6,14 +6,18 @@
 #include <iostream>
 using namespace std;
 
+#include <iostream>
+using namespace std;
+
 int main()
 {
-	int x = 25, y = 8;
-	for (int i = 0; i < y; i++)
-	{
-		for (int j = 0; j < x; j++)
-			cout << '*';
-		cout << endl;
-	}
-	return 0;
+	int list1[10], list2[10], list3[10];
+	int a, b, c;
+
+	sum(list1[0], list2[0], a);
+}
+
+void sum(int x, int y, int &z)
+{
+	z = x + y;
 }

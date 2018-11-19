@@ -11,7 +11,8 @@ const int CAP = 10;
 
 int main()
 {
-  int list[CAP] = {0}, i = 0;
+  int list[CAP], i = 0;
+  list[CAP] = {0};
 
   //read from user into list
   cout << "Enter 10 whole numbers:";
