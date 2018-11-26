@@ -1,0 +1,53 @@
+1. c. 3, 12, 17, 35, 63, 85, 55, 48, 36
+   d. 3, 12, 17, 35, 63, 85, 55, 48, 36
+   e. 3, 12, 17, 35, 63, 85, 55, 48, 36
+   f. 3, 12, 17, 35, 36, 85, 55, 48, 63
+   g. 3, 12, 17, 35, 36, 48, 55, 85, 63
+   h. 3, 12, 17, 35, 36, 48, 55, 85, 63
+   i. 3, 12, 17, 35, 36, 48, 55, 63, 85
+
+2. a. invalid, first argument must be destination var
+   b. valid
+   c. invalid, writing to unowned memory
+   d. valid
+   e. invalid, arrays are not assignable
+   f. valid
+   g. valid
+   h. invalid, cannot compare with string literal
+   i. invalid, out of bounds
+
+3. a. yes
+   b. yes
+   c. yes
+   d. yes
+
+4. a. strcpy(str1, "Sunny Day");
+   b. int length = strlen(str1);
+   c. strcpy(str2, name);
+   d. str1 <= str2 ? cout << str1 : cout << str2;
+
+5. int temp[3][4] = {
+      {6,  8, 12, 9},
+      {17, 5, 10, 6},
+      {14, 13, 16, 20}
+   };
+
+6. a. 30
+   b. 5
+   c. 6
+   d. a nested loop
+   e. a single loop
+
+7. a. void print(int rowLen, int colLen, int nums[])
+      {    
+         for(int i = 0; i < rowLen; i++)
+         {
+            for(int j = 0; j < colLen; j++)
+               cout << nums[i][j] << " ";
+            cout << endl;
+         }
+      }
+   b. print(30, 7, times);
+      print(15, 7, times);
+      print(100, 7, times);
+      print(50, 7, times);
