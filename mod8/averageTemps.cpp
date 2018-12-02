@@ -9,10 +9,6 @@
 #include <iomanip>
 using namespace std;
 
-//global constants
-const int CAP = 100;
-const int MAXCHAR = 101;
-
 //function prototype
 void openFile(ifstream &inFile);
 int readData(ifstream &inFile, string names[], int votes[]);
@@ -20,9 +16,7 @@ void calculateTotal(int size, string names[], int votes[]);
 
 int main()
 {
-   string names[CAP];
-   int votes[CAP] = {0};
-   int size = 0;
+   int temperatures[2][12] = {0};
 
    ifstream inFile;
    //open file

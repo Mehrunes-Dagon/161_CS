@@ -50,7 +50,7 @@ void openFile(ifstream &inFile)
 
 //read from file
 int readData(ifstream &inFile, string names[], int votes[])
-{
+{ 
   int size = 0;
   while (!inFile.eof())
   {
