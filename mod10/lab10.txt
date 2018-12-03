@@ -1,0 +1,45 @@
+1. struct CarType
+   {
+      string manufacturer;
+      string model;
+      string modelType;
+      string color;
+      int doors;
+      int mpgCity;
+      int mpgHwy
+      int year;
+      double price;
+   }  
+
+2. a. valid
+   b. invalid, cannot assign a value to a struct
+   c. invalid, cannot convert nameType to studentType
+   d. valid
+   e. valid
+   f. valid
+   g. invalid, cannot output studentType, only contained values
+   h. valid
+   i. valid
+
+3. a. course.name = "Programming I";
+      course.callNum = 13452;
+      course.credits = 3;
+      course.grade = '';
+   b. for (int i = 0; i < MAX_STUDENTS; i++) classList[i].gpa = 0.0;
+   c. student = classList[30];
+   d. classList[9].gpa += 0.75;
+
+4. const int CAP = 100;
+   partsType inventory[CAP];
+   for (int i = 0; i < CAP; i++) {
+      inventory[i].partName = "";
+      inventory[i].partNum = -1;
+      inventory[i].price = 0.0;
+      inventory[i].quantityInStock = 0;
+   }
+
+5. for (int i = 0; i < CAP; i++) {
+      if (inventory[i].partNum > -1 && inventory[i].quantityInStock > 0) {
+         cout << inventory[i].partName << " " << inventory[i].partNum << " " << inventory[i].price << " " << inventory[i].quantityInStock << endl;
+      }
+   }
